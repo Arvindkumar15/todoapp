@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"defer></script>
+    <title>Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container nav">
+            <h1 class="Logo">Website</h1>
+            <ul class="navItems">
+                <li class="navItem"><a href="#home" >Home</a></li>
+                <li class="navItem"><a href="">Todo</a></li>
+                <li class="navItem"><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headerline">
+            <h2 id="main_heading">Manage your task <span style="display: none;">Hello</span> </h2>
+            <!-- <button class="btn btn-headline" onclick="console.log('You can Click Me')">Learn More</button> -->
+             <!-- direct add click events-->
+            <button class="btn btn-headline">Learn More</button>
+        </div>
+    </header>
+    <section class="section-todo container abc">
+        <h2>Yor Plane for Today</h2>
+        <form action="" class="form-todo">
+            <input type="text" name="" id="" placeholder="Add Todo">
+            <input type="submit" value="Add" class="btn add" >
+        </form> 
+        <!--add there some specific-->
+        <ul class="todo-list" >
+            <li>
+                <span class="text">Do this do that</span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="Section-singup container">
+        <form action="" class="signup-form">
+            <h2>Sign Up</h2>
+            <div action="" class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div action="" class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div action="" class="form-group">
+                <label for="confirmpassword">Confirm Password</label>
+                <input type="password" name="confirmpassword" id="confirmpassword">
+            </div>
+            <div action="" class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+            <div action="" class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div action="" class="form-group">
+                <label for="about">About Yourself</label>
+                <textarea name="about" id="about" cols="30" rows="10" placeholder="write about youself"></textarea>
+            </div>
+            <button type="submit"class="btn signup-btn">Submit</button>
+        </form>
+    </section>
+</body>
+<!-- Method-2 -->
+<!-- <script src="./jScript.js"></script> -->
+<!-- // parser || load || then Execute -->
+<!-- problem this Method -->
+
+
+</html>
